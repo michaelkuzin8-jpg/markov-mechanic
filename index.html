@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Markov Auto | Enthusiast Mechanical Shop · Springfield, Virginia</title>
+    <meta name="description" content="Markov Auto is an enthusiast mechanical shop in Springfield, Virginia: maintenance, diagnostics, repairs, and performance work." />
+    <meta name="theme-color" content="#050505" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <style>html,body{background:#050505;margin:0}</style>
+    
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- Static copy of the contact form so Netlify Forms can detect it at deploy time. Not visible. -->
+    <form name="service-request" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input name="bot-field" /><input name="name" /><input name="phone" /><input name="email" />
+      <select name="emergency"></select><input name="year" /><input name="make" /><input name="model" />
+      <select name="service"></select><textarea name="details"></textarea>
+    </form>
+      <script defer src="app.js"></script>
+  </body>
+</html>
